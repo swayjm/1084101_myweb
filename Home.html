@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>🐶認養Adoption🐱</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+  <style>
+  /* Make the image fully responsive */
+
+	  .navbar-nav{
+    margin-left: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-right: auto;
+	  }
+
+
+  .one {
+    position: absolute;
+    text-shadow: 0px 0px;
+    margin-right: 300px;
+    color: #512D80;
+    width: auto;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    padding-left: 0px;
+    margin-left: 300px;
+    height: 400px;
+    margin-bottom: 80px;
+}
+  img flade {
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+}
+img flade:hover {
+    -webkit-opacity: 50%;
+    opacity: 50%;
+}
+  .imgflade {
+}
+  word {
+    color: #9499FF;
+    width: 100px;
+}
+  .word {
+    color: #5C3C81;
+    background-color: #FFE6F6;
+    border-color: #FFD6D7;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+  .color {
+    background-color: #FFF2D2;
+}
+  .color2 {
+    background-color: #FCB2CF;
+}
+  .color3 {
+    color: #4D2F75;
+    background-color: #FFE8F7;
+}
+  .RIGHT {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+  .words {
+    text-align: center;
+    font-weight: bolder;
+    width: 200px;
+    height: 30px;
+    min-height: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #DFBEAE;
+    font-size: 20px;
+    background-color: #FFE0F5;
+}
+  .title {
+    color: #3E265F;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+  .cardbody {
+    border-style: dashed;
+    border-color: #EEABA5;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 350px;
+    margin-top: 5px;
+    background-color: #FFF2D2;
+}
+  .cardout {
+    border-style: hidden;
+    margin-top: 10px;
+    background-color: #FFF4EB;
+}
+  .outcard {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #FFF4EB;
+    margin-top: 10px;
+}
+  .bodycolor {
+    background-color: #FFF4EB;
+}
+  .colornav {
+    background-color: #FFE8C4;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+
+  .cardside {
+    background-color: #FFF6EC;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 300px;
+    margin-top: 5px;
+}
+  .pic {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+  .pic2 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+  .footer {
+    position: absolute;
+}
+  .footer-down {
+    margin-top: 60px;
+    height: 400px;
+    background-color: #FFCEB7;
+    width: 100%;
+}
+  .footerpic {
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    /* [disabled]width: 0px; */
+}
+  .footerpic2 {
+    margin-right: auto;
+    margin-top: 100
+.
+.;
+    margin-top: 40px;
+    margin-left: auto;
+}
+  .footer3 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .pwords {
+    text-align: center;
+    color: #540001;
+    margin-right: auto;
+    font-size: 18px;
+    margin-left: auto;
+    width: auto;
+}
+  .divdown {
+    margin-top: 10px;
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+
+/* 56px */
+.toTop-arrow {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 33%;
+    opacity: 0.6;
+    background-color: #470001;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #FFC4D7;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+  
+  .navbar-logo {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .divps {
+    width: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+  .divone {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  .divbet {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  </style>
+<body class="bodycolor" >
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<nav class="navbar navbar-expand-sm bg- navbar-light fixed-top colornav">
+  <!-- Brand -->
+  <a class="navbar-brand navbar-logo" href="Home.html"><img src="img/Adopt logo.png" alt="logo" width="237" height="50" class="RIGHT" /><img src="img/r logo.png" alt="logo" width="290" height="28"/></a>
+	
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="page1.html">活動目的
+	</a>
+    </li>
+	   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        活動資訊
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="page2.html">最新消息</a>
+        <a class="dropdown-item" href="page2.html#a">認識浪浪</a>
+      </div>
+    </li>
+	   <!-- Dropdown -->
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        認養活動
+      </a>
+     <div class="dropdown-menu">
+        <a class="dropdown-item" href="page3.html">認養須知</a>
+        <a class="dropdown-item" href="page3.html#b">需要家的浪浪</a>
+        <a class="dropdown-item" href="page3.html#c">認養步驟</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page4.html">設計團隊</a>
+    </li>
+	  <li class="nav-item">
+        <p><a class="nav-link" href="page5.html">資料下載</a>
+        </p>
+	  </li>
+	  <li class="nav-item"> </li>    
+  </ul>
+</nav>
+
+&nbsp;
+	<marquee><font color="#FD3C8A" face="標楷體">流浪動物們需要大家的幫助，歡迎大家贊助糧食或是舊衣服舊棉被。在這裡呼籲大家以領養的方式代替購買，歡迎大家來認養可愛的貓咪和狗狗喔 ~</font></marquee>
+&nbsp;
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active color">
+      <p align="center"><a href="page2-1.html"> <img src="img/圖一.jpg " alt="貓咪" width="50%" height="50%"></a></p>
+      <div class="carousel-caption">
+        <h3 class="word">給貓咪一個家</h3>
+        <p class="offset-sm-3 col-sm-7 color3">幫助可愛的小貓咪們找到好主人吧～</p>
+      </div>
+    </div>
+    <div class="carousel-item color">
+      <p align="center"><a href="page2-1.html#d"> <img src="img/圖二-.jpg" alt="離開籠子" width="50%" height="50%"></a></p>
+      <div class="carousel-caption">
+        <h3 class="word">讓他們離開籠子吧</h3>
+        <p class="offset-sm-3 col-sm-7 color3">他們和外面的世界只差一張網子！</p>
+      </div>
+    </div>
+    <div class="carousel-item color">
+      <p align="center"><a href="page2-1.html#e"> <img src="img/圖三.jpg" alt="認養" width="50%" height="50%"></a></p>
+      <div class="carousel-caption">
+        <h3 class="word">領養代替購買</h3>
+        <p class="offset-sm-3 col-sm-7 color3">「領養代替購買」，一句沒說完的話</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev color2" href="#demo" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> <a class="carousel-control-next color2" href="#demo" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> </div>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<hr align="center"; width="1000";  color="#FF1D74"  noshade>
+	<p>&nbsp;</p>
+<div class="divone"> <img src="img/pic1.png" alt="" width="251" height="70"/></div>
+<div class=".one1"> 
+	<div class="card-group outcard">
+  <div class="card cardout">
+   <a href="home-1.html"style="color: black">
+	 <div class="card-body cardbody"><img src="img/covid.png" class="card-img-top" alt="covid"> 
+      <h5 class="card-title title">嚴重特殊傳染性肺炎COVID-19 </h5>
+      <p class="card-text">您與您的寵物：您需要知道的事</a></p>
+    </div>  
+  </div>
+  <div class="card cardout">
+	<a href="home-2.html"style="color: black">
+    <div class="card-body cardbody"><img src="img/food.png" class="card-img-top" alt="food">
+      <h5 class="card-title title">急!!! 徵求飼料</h5>
+      <p class="card-text">十分缺飼料，一大包18公斤撐不了3天！</a></p>
+      </div>
+		</div>
+  <div class="card cardout">
+ <a href="home-3.html"style="color: black"> <div class="card-body cardbody"><img src="img/hand.png" class="card-img-top" alt="hand">  
+      <h5 class="card-title title">志工招募</h5>
+      <p class="card-text">歡迎喜歡的朋友們加入我們的行列！ </a></p>
+    </div>
+  </div>
+	</div>
+	  </div>
+	
+<hr align="center"; width="1000";  color="#FF1D74"  noshade>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="divbet">
+	<img src="img/pic2.png" alt="" width="251" height="70"/></div>
+	
+      <div class="divdown"><div class="card-group outcard">
+  <div class="card cardout">
+   <a href="page1-1.html"style="color: black">
+	 <div class="card-body cardside"><img src="img/胸章.png" alt="covid" class="card-img-top pic2"></a>
+    
+      <h5 class="card-title title">質感胸章 </h5>
+     
+    </div>  
+  </div>
+  <div class="card cardout">
+	<a href="page1-1.html"style="color: black">
+		<div class="card-body cardside"><img src="img/紙膠帶.png" alt="food" class="card-img-top pic"></a>
+       <h5 class="card-title title">愛心紙膠帶</h5>
+      </div>
+		</div>
+	  <div class="card cardout">
+	<a href="page1-1.html"style="color: black">
+    <div class="card-body cardside"><img src="img/鑰匙圈.png" alt="food" class="card-img-top footer3"></a>
+       <h5 class="card-title title">質感鑰匙圈</h5>
+      </div>
+		</div>
+</div>
+  </div>
+	<hr align="center"; width="1000";  color="#FF1D74"  noshade>
+	<p>&nbsp;</p>
+<p>&nbsp;</p>
+<footer>
+	<div class="footer footer-down">
+		<div class="footer-down">
+<p class="pwords">聯絡我們</p>
+<p class="pwords">電話：04-24811111</p>
+<p class="pwords">有任何問題歡迎來電告知</p>
+<p class="pwords">客服時間：9：00 ～ 17：00</p>
+<p class="pwords">電子信箱：angel3863343@gmail.com</p>
+<div class="divps">	
+<a href="https://www.facebook.com/profile.php?id=100012130188608"><img src="img/fb.png" alt="facebook" width="50" height="50"/>	</a>
+<a href="https://timeline.line.me/user/_dTimuIaLT0FxfYzjYp3QRe4sqoi-URRLIYVMfNU"><img src="img/line.png" alt="line" width="50" height="50"/></a>
+
+<a href="https://www.instagram.com/ting_jm/"><img src="img/ig.png" alt="instagram" width="50" height="50"/></a>
+		</div>
+		
+</div>
+</div></footer>
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body> 
+ 
+</html> 

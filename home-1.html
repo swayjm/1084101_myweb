@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <title>關於新冠肺炎(covid-19)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+  <style>
+  /* Make the image fully responsive */
+
+	  .navbar-nav{
+    margin-left: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-right: auto;
+	  }
+
+
+  img flade {
+    -webkit-transition: all 1s 0s;
+    -o-transition: all 1s 0s;
+    transition: all 1s 0s;
+}
+img flade:hover {
+    -webkit-opacity: 50%;
+    opacity: 50%;
+}
+  .imgflade {
+}
+  word {
+    color: #9499FF;
+    width: 100px;
+}
+  .word {
+    color: #5C3C81;
+    background-color: #FFE6F6;
+    border-color: #FFD6D7;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+  .color {
+    background-color: #FFF2D2;
+}
+  .color2 {
+    background-color: #FCB2CF;
+}
+  .color3 {
+    color: #4D2F75;
+    background-color: #FFE8F7;
+}
+  .RIGHT {
+    margin-right: 5px;
+}
+
+  .words {
+    text-align: center;
+    font-weight: bolder;
+    width: 200px;
+    height: 30px;
+    min-height: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #DFBEAE;
+    font-size: 20px;
+    background-color: #FFE0F5;
+}
+  .title {
+    color: #3E265F;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+  .cardbody {
+    border-style: dashed;
+    border-color: #EEABA5;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 350px;
+    margin-top: 5px;
+    background-color: #FFF2D2;
+}
+  .cardout {
+    border-style: hidden;
+    margin-top: 10px;
+    background-color: #FFF4EB;
+}
+  .outcard {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    background-color: #FFF4EB;
+    margin-top: 10px;
+}
+  .bodycolor {
+    background-color: #FFF4EB;
+}
+  .colornav {
+    background-color: #FFE8C4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+
+  .cardside {
+    background-color: #FFF6EC;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 300px;
+    margin-top: 5px;
+}
+  .pic {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+  .pic2 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+  .footer {
+    position: absolute;
+}
+  .footer-down {
+    margin-top: 80px;
+    height: 400px;
+    background-color: #FFCEB7;
+    width: 100%;
+}
+  .footerpic {
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    /* [disabled]width: 0px; */
+}
+  .footerpic2 {
+    margin-right: auto;
+    margin-top: 100
+.
+.;
+    margin-top: 40px;
+    margin-left: auto;
+}
+  .footer3 {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .pwords {
+    text-align: center;
+    color: #540001;
+    margin-right: auto;
+    font-size: 18px;
+    margin-left: auto;
+    width: auto;
+}
+  .divdown {
+    margin-top: 10px;
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+/* 56px */
+.toTop-arrow {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 33%;
+    opacity: 0.6;
+    background-color: #470001;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #FFC4D7;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+  
+  .navbar-logo {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+  .divps {
+    width: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+  .divword {
+    margin-left: auto;
+    width: 550px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+  .row2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+  .divpic1 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .divpic2 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 33px;
+}
+  .divwords {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 18px;
+}
+  .divpic22 {
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+  .divphoto {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+  .divword1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 20px;
+    background-color: #FFE8E3;
+    height: 45px;
+}
+  .divword2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #FFE8E3;
+    height: 45px;
+}
+  .divword3 {
+    margin-left: 60px;
+}
+.divword5 {
+    margin-left: 60px;
+    margin-top: 70px;
+}
+ 
+  .words4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+  .divword4 {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+  
+  .pwordss {
+    text-align: left;
+    margin-left: auto;
+    width: 1000px;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top: 30px;
+}
+  .button {
+    margin-left: auto;
+    margin-right: autp;
+}
+.divbutton {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-top: 100px;
+}
+  .h333 {
+    margin-top: 8px;
+}
+  </style>
+<body class="bodycolor" >
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<nav class="navbar navbar-expand-sm bg- navbar-light fixed-top colornav">
+  <!-- Brand -->
+  <a class="navbar-brand navbar-logo" href="Home.html"><img src="img/Adopt logo.png" alt="logo" width="237" height="50" class="RIGHT" /><img src="img/r logo.png" alt="logo" width="290" height="28"/></a>
+	
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="page1.html">活動目的
+	</a>
+    </li>
+	   <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        活動資訊
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="page2.html">最新消息</a>
+        <a class="dropdown-item" href="page2.html#a">認識浪浪</a>
+      </div>
+    </li>
+	   <!-- Dropdown -->
+	  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        認養活動
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="page3.html">認養須知</a>
+        <a class="dropdown-item" href="page3.html#b">需要家的浪浪</a>
+        <a class="dropdown-item" href="page3.html#c">認養步驟</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="page4.html">設計團隊</a>
+    </li>
+	  <li class="nav-item">
+        <p><a class="nav-link" href="page5.html">資料下載</a>
+        </p>
+	  </li>
+	  <li class="nav-item"> </li>    
+  </ul>
+</nav>
+&nbsp;
+<marquee><font color="#FD3C8A" face="標楷體">流浪動物們需要大家的幫助，歡迎大家贊助糧食或是舊衣服舊棉被。在這裡呼籲大家以領養的方式代替購買，歡迎大家來認養可愛的貓咪和狗狗喔 ~</font></marquee>
+&nbsp;
+<div class="divword1" >
+		<h3>關於新型冠狀病毒疾病 (COVID-19)，您和毛小孩需要知道的事</h3>
+	</div>
+<div class="row row2">	
+		<div class="col-sm-6 divwords">
+	<div class="divword">
+	  <div class="divword3" >
+	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;關心毛小孩的家長，看到有關於新型冠狀病毒疾病 (COVID-19) 的報導，都會開始擔憂您和寵物之間會不會互相傳染。</p>
+			<p>請您放心~目前，沒有任何證據顯示這個病毒會經由寵物犬貓而感染其他動物或人類。</p>
+			<p>如果您的寵物在咳嗽，同時出現發燒、嗜睡等與人類 COVID-19 相似的症狀，請與獸醫師預約門診，因為寵物也可能罹患其他影響健康的疾病，包括流感、犬舍咳 (犬傳染性支氣管炎)、貓上呼吸道感染、心衰竭、支氣管炎、肺炎、心絲蟲症等等。其中有些疾病可能來自其他病毒的感染，但重點是這些病毒或疾病都與 COVID-19 無關，而且美國疾病管制中心表示，也沒有任何證據顯示犬隻的流感病毒會感染人類。</p>
+	</div>
+		</div>
+  </div>
+		<div class="col-sm-6 divpic1">
+			<div class="divpic2">
+        <img src="img/covid.png"   alt="" width="400" height="288"/>
+			</div>
+		</div>
+</div> 
+	<div class="divword1" >
+		<h3>狗狗和貓咪的冠狀病毒</h3>
+	</div>
+<div class="row row2">	
+		<div class="col-sm-6 divwords">
+	<div class="divword">
+	  <div class="divword5" >
+	  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;冠狀病毒包括一系列的是指一個病毒，這個名字來自這類病毒在顯微鏡下的外觀，病毒表面有環狀的蛋白質，看起來就像太陽的日冕或是皇冠。
+
+		狗狗和貓咪可能受到其他物種專一性的冠狀病毒感染，導致犬舍咳 (犬傳染性支氣管炎)、呼吸道感染、腸胃道問題等疾病。重點是這些病毒都與 COVID-19 無關，也不會感染人類。</p>
+		
+	</div>
+		</div>
+  </div>
+		<div class="col-sm-6 divpic1">
+			<div class="divpic2">
+        <img src="img/圖四-01.jpg"   alt="" width="400" height="288"/>
+			</div>
+		</div>
+</div> 
+<div class="divword2" >
+	<h3 class="h333">了解寵物冠狀病毒與人類冠狀病毒的不同！</h3>
+	</div>
+<div class="words4">
+	<div class="divword4">
+		<div> <p class="pwordss">新型冠狀病毒病(Covid-19)源自何種動物還未被證實，儘管世界動物衛生組織(OIE)表示，目前證據指向病毒是來自於動物，但確切來源(包括涉及物種)與疾病之動物保毒宿主可能扮演的角色，都仍在持續調查和研究中。
+	  </p>
+		<p class="pwordss">為了瞭解這些病毒的差異，我們詢問了百靈佳殷格翰的專業獸醫師，寵物和馬疫苗的全球主管Hervé Poulet分享到，雖然目前缺乏證據顯示寵物會傳播新型冠狀病毒病(COVID-19)，但世界動物衛生組織(OIE)強調，感染者仍需避免與寵物親密接觸，並且不論何時，照顧寵物都應該要維持良好的衛生習慣。
+
+		Hervé提到：「貓和狗也會被特定的冠狀病毒感染，例如，α冠狀病毒(Alphacoronavirus)屬的犬腸道冠狀病毒(Canine Enteric Coronavirus， CCoV)主要感染腸道細胞，引起狗狗輕度腸炎。」
+		</p>
+		<p class="pwordss">與動物不同的是，在人類身上檢測出的則是β-冠狀病毒(Betacoronaviruses)。
+		</p>
+		<p class="pwordss">為了讓讀者可以更淺顯易懂，可以參考以下圖表~
+	  </p></div>
+	  </div>
+	</div>
+<div class="divpic22">
+	<div class="divphoto">
+    <img src="img/wu_han_fei_yan_.jpg" width="800" height="605" alt=""/></div>
+	</div>
+	<div class="divbutton"><a href="Home.html"><button type="button" class="btn btn-outline-danger button">回首頁</button></a></div>
+<footer>
+	<div class="footer footer-down">
+		<div class="footer-down">
+<p class="pwords">聯絡我們</p>
+<p class="pwords">電話：04-24811111</p>
+<p class="pwords">有任何問題歡迎來電告知</p>
+<p class="pwords">客服時間：9：00 ～ 17：00</p>
+<p class="pwords">電子信箱：angel3863343@gmail.com</p>
+<div class="divps">	
+<a href="https://www.facebook.com/profile.php?id=100012130188608"><img src="img/fb.png" alt="facebook" width="50" height="50"/>	</a>
+<a href="https://timeline.line.me/user/_dTimuIaLT0FxfYzjYp3QRe4sqoi-URRLIYVMfNU"><img src="img/line.png" alt="line" width="50" height="50"/></a>
+
+<a href="https://www.instagram.com/ting_jm/"><img src="img/ig.png" alt="instagram" width="50" height="50"/></a>
+		</div>
+		
+</div>
+</div></footer>
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body> 
+ 
+</html> 
